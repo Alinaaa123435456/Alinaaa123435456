@@ -1,0 +1,124 @@
+*{
+	padding: 0;
+	margin: 0;
+	bottom: 0;
+}
+*,*:before,*after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li {list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+	padding: 30px;
+}
+.list{
+	font-size: 20px;
+	margin: 0px 0px 0px 400px;
+
+}
+.list li{
+	padding: 0px 0px 10px 0px;
+}
+.list li:first-child{
+	text-decoration: line-through;
+}
+.list li:hover:first-child{
+	text-decoration: none;
+}
+.list li:last-child{
+	text-transform: uppercase;
+}
+.list li:hover:last-child{
+	text-transform: none;
+}
+.list li:nth-child(2){
+	font-weight: 700;
+}
+.list li:hover:nth-child(2){
+	font-weight: normal;
+	color: red;
+}
+.list li:nth-child(3){
+	font-style: italic;
+}
+.list li:hover:nth-child(3){
+	font-style: normal;
+}
+.list li:before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: red;
+	margin: 0px 10px 0px 0px;
+}
+.list li:hover:before{
+	background-color: green;
+}
+.textbutton{
+	font-size: 18px;
+	width: 200px;
+	height: 40px;
+	margin: 30px 0px 0px 420px;
+	border-radius: 10px;
+	color: white;
+	background-color: #78DBE2;
+}
+.textbutton:hover{
+	background-color: #3F888F;
+}
+.textbutton:active{
+	background-color: #BCB7A9;
+}
+.line{
+	font-size: 18px;
+	width: 800px;
+	margin: 50px 0px 0px 300px;
+	
+}
+.line:first-line{
+	color: red;
+}
+.letter{
+	font-size: 18px;
+	width: 700px;
+	margin: 30px 0px 0px 300px;
+}
+.letter:first-letter{
+	font-size: 50px;
+	color: red;
+}
+	
+
+
+
+
+
+
+
